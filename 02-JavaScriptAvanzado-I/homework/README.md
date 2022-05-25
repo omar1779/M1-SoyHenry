@@ -6,7 +6,12 @@
 Determiná que será impreso en la consola, sin ejecutar el código.
 
 > Investiga cuál es la diferencia entre declarar una variable con `var` y directamente asignarle un valor.
-
+10 check
+8  check
+8  check
+9  check
+10 check
+1  check
 ```javascript
 x = 1;
 var a = 5;
@@ -28,7 +33,9 @@ c(8,9,10);
 console.log(b);
 console.log(x);
 ```
-
+undefined
+baz is not defined
+hola
 ```javascript
 console.log(bar);
 console.log(baz);
@@ -37,7 +44,7 @@ function foo() { console.log('Hola!'); }
 var bar = 1;
 baz = 2;
 ```
-
+franco
 ```javascript
 var instructor = "Tony";
 if(true) {
@@ -45,7 +52,9 @@ if(true) {
 }
 console.log(instructor);
 ```
-
+tony
+franco
+tony
 ```javascript
 var instructor = "Tony";
 console.log(instructor);
@@ -57,7 +66,10 @@ console.log(instructor);
 })();
 console.log(instructor);
 ```
-
+the flash
+reverse flash
+the flash
+reverse flash
 ```javascript
 var instructor = "Tony";
 let pm = "Franco";
