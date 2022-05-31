@@ -80,7 +80,7 @@ Lista.prototype.deleteFirst = function() {
 	this.len--;
 }
 
-Lista.prototype.deleteLast = function() {	
+Lista.prototype.deleteLast = function() {
 	pointer = this.point;
 	while (pointer.next.next!=null) {
 		pointer = pointer.next;
